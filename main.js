@@ -1,6 +1,6 @@
 
 function rot13(form) {
-    let cipherInput = document.forms['create']['inputbox'].value;
+    let cipherInput = document.forms['create']['inputbox'].value.toUpperCase();
     let codeA = 'A'.charCodeAt(0);
     let codeN = 'N'.charCodeAt(0);
     let codeZ = 'Z'.charCodeAt(0);
