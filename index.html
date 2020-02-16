@@ -14,7 +14,7 @@
             </p>
         </section>
         <section id='form1' id='cypherform'>
-            <form name='create'>
+            <form name='create' onSubmit="return rot13(this.form)">
                 <h4>Create Your Code Here:</h4>
                 <input id='inputbox' type='text' name='inputbox' value=''>
                 <input id='submit' type='button' name='button' value='Cipher' onClick='rot13(this.form)'>
@@ -22,7 +22,7 @@
             <span id='cypheroutput'> </span>
         </section>
         <section id='form2'  id='decyrptform'> 
-            <form name='decrypt'>
+            <form name='decrypt' onSubmit='return decryptrot13(this.form)'>
                 <h4>Decipher Your Code Here:</h4>
                 <input id='inputbox2' type='text' name='inputbox2' value=''>
                 <input id='submit2' type='button' name='button2' value='Decipher' onClick='decryptrot13(this.form)'>

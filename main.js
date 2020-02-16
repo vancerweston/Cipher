@@ -20,11 +20,11 @@ function rot13(form) {
         let output = newArr.join('');
         document.getElementById('cypheroutput').innerHTML = output;
     }
-    return newArr.join('');
+    return false;
 }
 
 function decryptrot13(form) {
-    let decryptInput = document.forms['decrypt']['inputbox2'].value;
+    let decryptInput = document.forms['decrypt']['inputbox2'].value.toUpperCase();
     let rotA = 'A'.charCodeAt(0);
     let rotN = 'N'.charCodeAt(0);
     let rotZ = 'Z'.charCodeAt(0);
@@ -44,5 +44,5 @@ function decryptrot13(form) {
         let output2 = nextArr.join('');
         document.getElementById('decryptoutput').innerHTML = output2;
     }
-    return nextArr.join('');
+    return false;
 }
