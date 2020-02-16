@@ -1,10 +1,5 @@
 
-/*make sure the page wraps*/
 /*make sure it looks good on an iphone*/
-/*vertical spacing*/
-/*double check functions*/
-/*do I want to style input boxes?*/
-/*double check max/min widths*/
 
 
 body {
@@ -17,16 +12,17 @@ body {
 /*Section/Span Style/Format*/
 
 #text {
-    margin: auto;
+    margin: 50px auto;
     max-width: 800px;
     min-width: 350px;
+    padding: 10px 0 15px 0;
     width: auto;
     text-align: center;
     border: white 5px solid;
 }
 
 #form1 {
-    margin: 50px auto 0 auto; /*Change all margin to this setting*/
+    margin: 80px auto 0 auto; /*Change all margin to this setting*/
     max-width: 600px;
     min-width: 350px;
     width: auto;
@@ -34,7 +30,7 @@ body {
 }
 
 #form2 {
-    margin: auto;
+    margin: 80px auto 80px auto;
     max-width: 600px;
     min-width: 350px;
     width: auto;
@@ -114,5 +110,3 @@ span {
     padding-bottom: 10px;
     margin: auto;
 }
-
-
